@@ -1,0 +1,100 @@
+[2025-07-18T05:53:13.162Z] {
+  "ts": 1752817993157,
+  "type": "say",
+  "say": "text",
+  "text": "hi",
+  "images": []
+}
+[2025-07-18T05:53:13.173Z] taskStarted -> 1bf417cd-38e5-45f9-b848-ad7c321fd3c2
+[2025-07-18T05:53:13.187Z] {
+  "ts": 1752817993174,
+  "type": "say",
+  "say": "api_req_started",
+  "text": "{\"request\":\"<task>\\nhi\\n</task>\\n\\nLoading...\"}"
+}
+[2025-07-18T05:53:13.770Z] {
+  "ts": 1752817993766,
+  "type": "say",
+  "say": "checkpoint_saved",
+  "text": "fe44c290c1a7247e5c254afd3b364902e2a94082",
+  "checkpoint": {
+    "isFirst": true,
+    "from": "fe44c290c1a7247e5c254afd3b364902e2a94082",
+    "to": "fe44c290c1a7247e5c254afd3b364902e2a94082"
+  }
+}
+[2025-07-18T05:53:17.001Z] {
+  "ts": 1752817996993,
+  "type": "ask",
+  "ask": "api_req_failed",
+  "text": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+}
+[2025-07-18T05:53:20.751Z] {
+  "ts": 1752818000746,
+  "type": "say",
+  "say": "api_req_retried"
+}
+[2025-07-18T05:53:24.800Z] {
+  "ts": 1752818004792,
+  "type": "ask",
+  "ask": "api_req_failed",
+  "text": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+}
+[2025-07-18T05:54:14.252Z] {
+  "ts": 1752818054243,
+  "type": "say",
+  "say": "api_req_retried"
+}
+[2025-07-18T05:54:16.969Z] {
+  "ts": 1752818056963,
+  "type": "ask",
+  "ask": "api_req_failed",
+  "text": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+}
+[2025-07-18T05:54:24.579Z] {
+  "ts": 1752818064571,
+  "type": "say",
+  "say": "api_req_retried"
+}
+[2025-07-18T05:54:27.103Z] {
+  "ts": 1752818067096,
+  "type": "ask",
+  "ask": "api_req_failed",
+  "text": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+}
+[2025-07-18T05:54:33.612Z] {
+  "ts": 1752818073607,
+  "type": "ask",
+  "ask": "resume_task"
+}
+[2025-07-18T05:54:43.824Z] {
+  "ts": 1752818083819,
+  "type": "say",
+  "say": "text",
+  "text": "add an image",
+  "images": []
+}
+[2025-07-18T05:54:43.828Z] taskStarted -> 204dac2f-6a6e-420e-9c56-c240d33e87d1
+[2025-07-18T05:54:43.836Z] {
+  "ts": 1752818083828,
+  "type": "say",
+  "say": "api_req_started",
+  "text": "{\"request\":\"<task>\\nadd an image\\n</task>\\n\\nLoading...\"}"
+}
+[2025-07-18T05:54:44.416Z] {
+  "ts": 1752818084411,
+  "type": "say",
+  "say": "checkpoint_saved",
+  "text": "6bf5232385efde8db8e348e68aeccc679b832dc1",
+  "checkpoint": {
+    "isFirst": true,
+    "from": "6bf5232385efde8db8e348e68aeccc679b832dc1",
+    "to": "6bf5232385efde8db8e348e68aeccc679b832dc1"
+  }
+}
+[2025-07-18T05:54:46.964Z] {
+  "ts": 1752818086957,
+  "type": "ask",
+  "ask": "api_req_failed",
+  "text": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+}
